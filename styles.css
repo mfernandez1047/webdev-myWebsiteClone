@@ -16,13 +16,15 @@ body{
 
 #topnavbar{
     list-style-type: none;
-    background-color: whitesmoke;
+    background-color: white;
     color: #363636;
     font-size: 13px;
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
     font-family: "SamsungOneLatinWeb";
     text-transform: uppercase;
+    margin-top: 0;
+   
 }
 
 
@@ -35,6 +37,7 @@ body{
 #topnavbar li{
     display: inline;
     margin: 1.5vw;
+    
 }
 
 
@@ -44,8 +47,11 @@ body{
 }
 
 
-#topnavbar li:nth-child(8){
-    margin-left: 4.2vw;
+#topnavbar li:nth-child(6){
+    margin: 0px;
+    padding: 0px;
+    height: 250px;
+    width: 82.469;
 }
 
 
