@@ -1,3 +1,5 @@
+/*--------navbar-----------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +11,6 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
-
-
 
 
 #topnavbar{
@@ -56,45 +55,55 @@ body{
 
 
 
-#Hero{
-    
-    height: 100px;
-    background-size: cover;
 
+/*--------hero-----------*/
+
+
+#hero {  
+    height: 75vh; 
+    background: url(images/HP-KVCarousel-WatchActive2-M-091919\ \(1\).jpg) no-repeat center;
+    background-size: center; 
+    position: relative;
 }
 
-#heros{
 
-    
-}
 
-.center{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+
 
 #herotext{
     position: relative;
+    top: 30.5vh;
+    left: 12.5vw;
     color: black;
-    font-family: "SamsungSansSharp";
-    text-transform: bold;
-    font-size: 31px;
-    margin-bottom: 16px;
-
+    font-family: "SamsungOneLatinWeb";
+    
+    font-size: 35px;
+    margin: 0px;
+    
+    
 }
+
 
 #herotextsmall{
-position: relative;
-color: black;
-font-family: "SamsungSansSharp";
-font-style: bold;
+    position: relative;
+    top: 30.7vh;
+    left: 12.5vw;
+    color: black;
+    font-family: "SamsungOneLatinWeb";
+    font-size: 19px;
+    
 }
 
 
-.wrapper {
-    width: 100%;
-    background-color: #333;
-    padding: 60px 0px;
+#herotextsmallest{
+    position: relative;
+    top: 33.7vh;
+    left: 12.5vw;
+    color: black;
+    font-family: "SamsungOneLatinWeb";
+    font-size: 15px;
+    
 }
+
+/*--------explore-----------*/
+
