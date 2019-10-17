@@ -64,6 +64,7 @@ body{
     background: url(images/HP-KVCarousel-WatchActive2-M-091919\ \(1\).jpg) no-repeat center;
     background-size: center; 
     position: relative;
+    padding-top: 0px;;
 }
 
 
@@ -97,13 +98,110 @@ body{
 
 #herotextsmallest{
     position: relative;
-    top: 33.7vh;
+    top: 37.7vh;
     left: 12.5vw;
     color: black;
     font-family: "SamsungOneLatinWeb";
-    font-size: 15px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#herotextsmaller{
+    position: relative;
+    top: 36.2vh;
+    left: 28.5vw;
+    color: black;
+    font-family: "SamsungOneLatinWeb";
+    font-size: 14px;
+    
+}
+/*--------explore-----------*/
+
+#explorecchs{
+    width: 100vw;
+    height: 450px;
+}
+
+
+#exploreheader{
+    width: 100vw;
+    height: 61px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    padding-top: 80px;
+    font-size: 22px;
     
 }
 
-/*--------explore-----------*/
+
+#exploresection{
+    width: 100vw;
+    height: 369px;
+}
+
+
+.explorebox{
+    height: 369px;
+    width: 25%;
+    float: left;
+}
+
+
+#galaxyfold{
+    background-image: url(https://image-us.samsung.com/SamsungUS/home/hp/09302019/Fold-Desktop.jpg?$flagship-component-blur-jpg$);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#galaxytext{
+    margin: 150px 35px;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 10px 20px;
+    font-size:18px;
+    position: absolute;
+}
+
+
+#phone{
+    background-image: url(https://image-us.samsung.com/SamsungUS/homepage/mar_2019/030819/Explore_5G_Desktop.jpg?$default$);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#phonetext{
+    margin: 150px 35px;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 20px 25px;
+    font-size: 18px;
+}
+
+
+#Powerof10{
+    background-image: url(https://image-us.samsung.com/SamsungUS/home/hp/09302019/Powerof10-Desktop.jpg?$flagship-component-blur-jpg$);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#powertext{
+    margin: 150px 35px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-right: 0px;
+}
+
+
+
 
