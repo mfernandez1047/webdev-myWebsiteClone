@@ -52,7 +52,7 @@ body{
     height: 250px;
     width: 82.469;
 }
-
+/*navbar*/
 
 
 
@@ -115,9 +115,13 @@ body{
     font-size: 14px;
     
 }
+/*hero*/
+
+
+
 /*--------explore-----------*/
 
-#explorecchs{
+#explore{
     width: 100vw;
     height: 450px;
 }
@@ -133,6 +137,7 @@ body{
     font-weight: bold;
     padding-top: 80px;
     font-size: 22px;
+    margin-left: 30px;
     
 }
 
@@ -154,7 +159,14 @@ body{
     background-image: url(https://image-us.samsung.com/SamsungUS/home/hp/09302019/Fold-Desktop.jpg?$flagship-component-blur-jpg$);
     background-position: center;
     background-size: cover;
+    background-position: left top;
+    padding: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+  margin-left: 200px;
 }
+
 
 
 #galaxytext{
@@ -165,6 +177,7 @@ body{
     padding: 10px 20px;
     font-size:18px;
     position: absolute;
+    
 }
 
 
@@ -172,6 +185,16 @@ body{
     background-image: url(https://image-us.samsung.com/SamsungUS/homepage/mar_2019/030819/Explore_5G_Desktop.jpg?$default$);
     background-position: center;
     background-size: cover;
+    background-position: left top;
+    padding: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+  top: 50%; 
+ left: 150%; 
+  margin-top:-10px; 
+  margin-left: 300px; 
+  
 }
 
 
@@ -185,11 +208,19 @@ body{
 }
 
 
-#Powerof10{
+#Powerof{
     background-image: url(https://image-us.samsung.com/SamsungUS/home/hp/09302019/Powerof10-Desktop.jpg?$flagship-component-blur-jpg$);
     background-position: center;
     background-size: cover;
+    background-position: left top;
+    padding: 20px;
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+  float: right;
+  margin-right: 150px;
 }
+
 
 
 #powertext{
@@ -199,9 +230,68 @@ body{
     color: white;
     font-size: 18px;
     font-family: 'PT Sans Narrow', sans-serif;
-    padding-right: 0px;
+    vertical-align: text-bottom;
+    
+}
+
+/*explore*/
+
+/*footer*/
+.footer-wrap {
+	background: whitesmoke;
+	border-top: 1px solid whitesmoke;
+}
+.footer-top .container {
+	border-bottom: 1px solid whitesmoke;
+	padding-bottom: 20px;
+}
+.f-menu-list {
+	margin-bottom: 20px;
+    padding-top: 30px;
+    list-style-type: none;
+}
+.f-menu-list .f-menu {
+	float: left;
+	width: 18.75%;
+	padding: 0 15px;
+    margin: 0 0 25px;
+    list-style-type: none;
+}
+.f-menu-list .f-menu h3 {
+	color: black;
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'SamsungOneLatinWeb', 'SamsungSans', 'Interface_bd', Arial, Helvetica, 'San-Serif';
+    list-style-type: none;
+}
+
+.f-menu-list .f-menu ul li a{
+	color: black;
+	font-size: 14px;
+	font-weight: 300;
+    padding: 5px 0;
+    list-style-type: none;
+}
+.f-menu-list .f-menu ul li a i {
+    margin-right: 18px;
+    list-style-type: none;
 }
 
 
+@media only screen and (max-width : 768px) {
 
-
+ 
+    .f-menu-list .f-menu {
+        width: 25%;
+    }
+    
+    .f-block-modal-wrap .f-block-modal.f-block-modal-map {
+        width: 420px;
+    }
+    .f-block-modal.f-block-modal-map .allstore-gmap {
+        width: 420px;
+    }
+    /* Footer */
+}
